@@ -1,6 +1,6 @@
 {
   "name": "micro-frontends-todolist",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "React application",
   "main": "dist/micro-frontends-todolist.js",
   "dependencies": {
