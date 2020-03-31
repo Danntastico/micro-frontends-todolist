@@ -44,9 +44,9 @@ export default class TodoList extends React.Component {
         todos = this.state.todos.filter(todo => !todo.complete);
         doneTodos = this.state.todos.filter(todo => todo.complete);
         return (
-            <div className="container">
-                <div className="row d-flex flex-column">
-                    <div className="col-md-6 shadow-sm mt-2 bg-white">
+            <div>
+                <div className="row d-flex flex-column px-4">
+                    <div className="col-12 shadow-sm mt-2 bg-white">
                         <div className="todolist not-done">
                         <Header/>
                             <h2>Todos</h2>
@@ -68,7 +68,7 @@ export default class TodoList extends React.Component {
                     </div>
                     {
                         doneTodos.length > 0 && (
-                            <div className="col-md-6 p-3 shadow-sm mt-1 bg-light">
+                            <div className="col-12 p-4 shadow-sm mt-1 p-2 bg-light">
                                 <div className="todolist">
                                     <h4 className="text-success">Done</h4>
                                     {
